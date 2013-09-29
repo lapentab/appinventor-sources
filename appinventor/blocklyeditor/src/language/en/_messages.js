@@ -175,6 +175,10 @@ Blockly.LANG_CONTROLS_NOTHING_TITLE = 'nothing';
 Blockly.LANG_CONTROLS_NOTHING_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#nothing';
 Blockly.LANG_CONTROLS_NOTHING_TOOLTIP = 'Returns nothing. Used to initialize variables or can be plugged into a return socket if no value needed to return. this is equivalent to null or None.';
 
+Blockly.LANG_LOGIC_NEGATE_NEGATE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/logic#notnot';
+Blockly.LANG_LOGIC_NEGATE_NEGATE_INPUT_NOT = 'notnot';
+Blockly.LANG_LOGIC_NEGATE_NEGATE_TOOLTIP = 'Returns true if the input is true.\n' +
+  'Returns false if the input is false.';
 
 Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#openscreen';
 Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'open another screen';

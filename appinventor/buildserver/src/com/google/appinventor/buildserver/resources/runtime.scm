@@ -23,7 +23,7 @@
 
 (define (android-log message)
   (when *debug* (android.util.Log:i "YAIL" message)))
-
+(define (yail-not-not foo) (not (not foo)))
 ;;;; add-component
 (define-constant simple-component-package-name "com.google.appinventor.components.runtime")
 
