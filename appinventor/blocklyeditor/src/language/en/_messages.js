@@ -610,6 +610,9 @@ Blockly.LANG_LISTS_PICK_RANDOM_ITEM_HELPURL = 'http://appinventor.mit.edu/explor
 Blockly.LANG_LISTS_PICK_RANDOM_TITLE_PICK_RANDOM = 'pick a random item';
 Blockly.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = 'list';
 Blockly.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Pick an item at random from the list.';
+Blockly.LANG_LISTS_PICK_RANDOM_TITLE_PICK_FIRST = 'pick the first item';
+Blockly.LANG_LISTS_PICK_RANDOM_TITLE_PICK_LAST = 'pick the last item';
+
 
 Blockly.LANG_LISTS_REPLACE_ITEM_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/lists#replace';
 Blockly.LANG_LISTS_REPLACE_ITEM_TITLE_REPLACE = 'replace list item';

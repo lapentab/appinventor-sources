@@ -1849,6 +1849,21 @@ list, use the make-yail-list constructor with no arguments.
   (yail-list-get-item yail-list
               (random-integer 1  (yail-list-length yail-list))))
 
+;; Returns the first element from the list
+(define (yail-list-pick-first yail-list)
+  (if (yail-list-empty? yail-list)
+      (signal-runtime-error
+       (format #f "Pick random item: Attempt to pick a random element from an empty list")
+       "Invalid list operation"))
+  (yail-list-get-item yail-list 1))
+
+;; Returns the last element from the list
+(define (yail-list-pick-last yail-list)
+  (if (yail-list-empty? yail-list)
+      (signal-runtime-error
+       (format #f "Pick random item: Attempt to pick a random element from an empty list")
+       "Invalid list operation"))
+  (yail-list-get-item yail-list (yail-list-length yail-list)))
 
 ;; Implements Blocks foreach, which takes a Yail-list as argument
 ;; This is called by Yail foreach, defined in macros.scm
