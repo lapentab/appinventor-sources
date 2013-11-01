@@ -22,6 +22,7 @@ public enum ComponentCategory {
   STORAGE("Storage"),
   CONNECTIVITY("Connectivity"),
   LEGOMINDSTORMS("LEGO\u00AE MINDSTORMS\u00AE"),
+  IOIO_BOARD("IOIO BOARD"),
   //EXPERIMENTAL("Experimental"),
   INTERNAL("For internal use only"),
   // UNINITIALIZED is used as a default value so Swing libraries can still compile
@@ -41,6 +42,7 @@ public enum ComponentCategory {
     DOC_MAP.put("Storage", "storage");
     DOC_MAP.put("Connectivity", "connectivity");
     DOC_MAP.put("LEGO\u00AE MINDSTORMS\u00AE", "legomindstorms");
+    DOC_MAP.put("IOIO BOARD", "ioio_board");
     //DOC_MAP.put("Experimental", "experimental");
   }
 

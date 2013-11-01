@@ -102,6 +102,10 @@
         <pathelement location="lib/tablelayout/TableLayout-jdk1.5-2007-04-21.jar" />
         <pathelement location="lib/twitter/twitter4j-core-3.0.5.jar" />
         <pathelement location="lib/twitter/twitter4j-media-support-3.0.5.jar" />
+        <pathelement location="lib/ioio_board/ioiolibbt.jar" />
+        <pathelement location="lib/ioio_board/ioiolibandroid.jar" />
+        <pathelement location="lib/ioio_board/ioiolibaccessory.jar" />
+
         <pathelement location="lib/QRGenerator/core.jar" />
         <pathelement location="lib/QRGenerator/javase.jar" />
         <fileset dir="buildserver/lib" includes="**/*.jar"/>

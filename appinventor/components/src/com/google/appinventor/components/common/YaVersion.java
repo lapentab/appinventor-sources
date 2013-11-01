@@ -497,6 +497,8 @@ public class YaVersion {
 
   public static final int NXT_SOUNDSENSOR_COMPONENT_VERSION = 1;
 
+  public static final int IOIO_BOARD = 1;
+
   public static final int NXT_TOUCHSENSOR_COMPONENT_VERSION = 1;
 
   public static final int NXT_ULTRASONICSENSOR_COMPONENT_VERSION = 1;

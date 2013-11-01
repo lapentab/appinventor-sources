@@ -131,6 +131,9 @@
         <pathelement location="${lib.dir}/oauth/google-http-client-android2-1.10.3-beta.jar" />
         <pathelement location="${lib.dir}/oauth/google-http-client-android3-1.10.3-beta.jar" />
         <pathelement location="${lib.dir}/oauth/google-oauth-client-1.10.1-beta.jar" />
+        <pathelement location="${lib.dir}/ioio_board/ioiolibbt.jar" />
+        <pathelement location="${lib.dir}/ioio_board/ioiolibandroid.jar" />
+        <pathelement location="${lib.dir}/ioio_board/ioiolibaccessory.jar" />
       </classpath>
     </ai.javac5>
 
@@ -228,6 +231,9 @@
           <pathelement location="${lib.dir}/oauth/google-http-client-android2-1.10.3-beta.jar" />
           <pathelement location="${lib.dir}/oauth/google-http-client-android3-1.10.3-beta.jar" />
           <pathelement location="${lib.dir}/oauth/google-oauth-client-1.10.1-beta.jar" />
+          <pathelement location="${lib.dir}/ioio_board/ioiolibbt.jar" />
+          <pathelement location="${lib.dir}/ioio_board/ioiolibandroid.jar" />
+          <pathelement location="${lib.dir}/ioio_board/ioiolibaccessory.jar" />
           <pathelement location="${lib.dir}/guava/guava-14.0.1.jar" />
         </classpath>
         <compilerarg line="-processorpath ${local.build.dir}/AnnotationProcessors.jar"/>
