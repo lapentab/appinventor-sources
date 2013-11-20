@@ -356,6 +356,12 @@ public interface Images extends Resources {
   ImageResource legoMindstormsNxt();
 
   /**
+   * Designer palette item: IOIO Board
+   */
+  @Source("com/google/appinventor/images/ioioBoard.png")
+  ImageResource ioioBoard();
+
+  /**
    * Designer palette item: Bluetooth components
    */
   @Source("com/google/appinventor/images/bluetooth.png")

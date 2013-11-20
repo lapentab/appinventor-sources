@@ -142,8 +142,13 @@ public final class ErrorMessages {
   //AccelerometerSensor Errors
   public static final int ERROR_BAD_VALUE_FOR_ACCELEROMETER_SENSITIVITY = 1901;
 
-  // Please start the next group of error numbers at 2001.
+  // IOIO errors
+  public static final int ERROR_IOIO_DISCONNECT = 2201;
+  public static final int ERROR_IOIO_INTERRUPT = 2202;
+  public static final int ERROR_IOIO_INCOMPATIBLE = 2203;
 
+  //Please start the next group of error numbers at 2301.
+  
   // Mapping of error numbers to error message format strings.
   private static final Map<Integer, String> errorMessages;
   static {
@@ -178,6 +183,12 @@ public final class ErrorMessages {
         "http://twitter.com/oauth_clients/new");
     errorMessages.put(ERROR_TWITTER_EXCEPTION,
         "Twitter error: %s");
+    errorMessages.put(ERROR_IOIO_DISCONNECT,
+        "Connection to the IOIO board has been lost");
+    errorMessages.put(ERROR_IOIO_INTERRUPT,
+            "Communication has been interrupted");
+    errorMessages.put(ERROR_IOIO_INCOMPATIBLE,
+            "The IOIO board is incompatible.");
     errorMessages.put(ERROR_TWITTER_UNABLE_TO_GET_ACCESS_TOKEN,
         "Unable to get access token: %s");
     errorMessages.put(ERROR_TWITTER_AUTHORIZATION_FAILED,
